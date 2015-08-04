@@ -1,4 +1,4 @@
- # Course Deadlines and mandatory examinations
+ #Course Deadlines and mandatory examinations
  
  * V37, Assignment 1. (Complete Assignments before deadline)
   * 2015-09-10, 13:00 
