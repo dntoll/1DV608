@@ -12,7 +12,7 @@
   * Mandatory: During Booked Time
  * V42, Workshop, Mandatory Group Work during Workshop time
   * Mandatory Presence: Workshop time in schedule
- * V44, Project handin, Submit project, link before deadline
+ * V44, Project submission, Submit project and code before deadline
   * Deadline: 2015-10-28, 08:00
  * V44, Project Presentation, Mandatory Presentation of Project
   * Mandatory Presence: Presentation time in schedule
