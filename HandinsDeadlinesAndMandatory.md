@@ -17,5 +17,6 @@
  * V44, Project Presentation, Mandatory Presentation of Project
   * Mandatory Presence: Presentation time in schedule
  * V44, Handin of Corrected assignments
-  * See schedule before Examination
+  * Deadline: Examination time in schedule
+  * Mandatory: During Booked Time
  
