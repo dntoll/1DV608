@@ -19,6 +19,6 @@ The requirements of the application is written below and consists of three use-c
 https://docs.google.com/document/d/1GJZNskYv4bfFhYHSq9jOsK8xmxtscxkuTkf9-f1KBtw/edit#
 
 For each of the use-cases there are a number of test-cases
-Ideally your application should fullfill test positively.
+Ideally your application should fullfill each test.
 
 
