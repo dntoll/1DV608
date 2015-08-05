@@ -21,14 +21,14 @@ Security Considerations
 
 #UC1 Authenticate user
 ##Main scenario
- * Starts when a user wants to authenticate.
- * System asks for username, password, and if system should save the user credentials
- * User provides username and password
- * System authenticates the user and presents that authentication succeeded
+ 1. Starts when a user wants to authenticate.
+ 2. System asks for username, password, and if system should save the user credentials
+ 3. User provides username and password
+ 4. System authenticates the user and presents that authentication succeeded
 
 ## Alternate Scenarios
  * 3a. User wants the system to keep user credentials for easier login.
-   * 1. The system authenticates the user and presents that the authentication succeeded and that the user credentials was saved.
+   1. The system authenticates the user and presents that the authentication succeeded and that the user credentials was saved.
  * 4a. User could not be authenticated
    * 1. System presents an error message
    * 2. Step 2 in main scenario
