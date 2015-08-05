@@ -2,8 +2,7 @@
 Web Development with PHP, 7.5 Hp aims to give you a programming language for backend.
 The course assumes that you have good programming skills in another language.
 
-The first part of the course focus on how to write object oriented applications in PHP. But programming is just a part of developement, 
-this cours aims to give you a broader base to enable larger development projects. To achieve that goal we will dive into software architecture and code quality. 
+The first part of the course focus on how to write object oriented applications in PHP. But programming is just one part of development, this course aims to give you a broader base to enable larger development projects. To achieve that goal we will dive into software architecture and code quality. 
 These knowledges are not unique for PHP but will serve you in other languages as well.
 
  * How can I improve readability and understandability and reduce complexity?
