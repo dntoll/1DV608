@@ -30,29 +30,29 @@ Security Considerations
  * 3a. User wants the system to keep user credentials for easier login.
    * 1. The system authenticates the user and presents that the authentication succeeded and that the user credentials was saved.
  * 4a. User could not be authenticated
-   * 1. System presents an error message
-   * 2. Step 2 in main scenario
+   1. System presents an error message
+   2. Step 2 in main scenario
 
-
-UC2 Logging out an authenticated user
-Preconditions
+
+#UC2 Logging out an authenticated user
+##Preconditions
 A user is authenticated. Ex. UC1, UC3
-Main scenario
-Starts when a user no longer wants to be logged in
-The system present a logout choice
-User tells the system he wants to log out.
-The system logs the user out and presents a feedback message
+##Main scenario
+ 1. Starts when a user no longer wants to be logged in
+ 2. The system present a logout choice
+ 3. User tells the system he wants to log out.
+ 4. The system logs the user out and presents a feedback message
 
-
-UC3 Authentication with saved credentials
-Precondition
+#UC3 Authentication with saved credentials
+##Precondition
 UC1. 3a   User wants the system to keep user credentials for easier login.
-Main scenario
-Starts when a user wants to authenticate with saved credentials
-System authenticated the user and presents that the authentication succeeded and that it happened with saved credentials.
-Alternate Scenarios
-2a. The user could not be authenticated (to old credentials > 30 days) (Wrong credentials), Manipulated credentials
-1. System presents error message
-2. Step 2 in UC1.
+## Main scenario
+ 1. Starts when a user wants to authenticate with saved credentials
+ 2. System authenticated the user and presents that the authentication succeeded and that it happened with saved credentials.
+
+##Alternate Scenarios
+ * 2a. The user could not be authenticated (to old credentials > 30 days) (Wrong credentials), Manipulated credentials
+  1. System presents error message
+  2. Step 2 in UC1.
 
 
