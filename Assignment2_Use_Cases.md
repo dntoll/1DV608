@@ -27,9 +27,9 @@ Security Considerations
  4. System authenticates the user and presents that authentication succeeded
 
 ## Alternate Scenarios
- 3a. User wants the system to keep user credentials for easier login.
+ * 3a. User wants the system to keep user credentials for easier login.
    * 1. The system authenticates the user and presents that the authentication succeeded and that the user credentials was saved.
- 4a. User could not be authenticated
+ * 4a. User could not be authenticated
    * 1. System presents an error message
    * 2. Step 2 in main scenario
 
