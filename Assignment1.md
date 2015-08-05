@@ -11,7 +11,7 @@ After completing the assignment the student should have...
  * enquired some strategies for problem solving and debugging without debugger.
 
 ##Rules
-Assignment one is an individual assignment, you are not allowed to copy or share complete solutions from or with other students.
+Assignment one is an individual assignment, you are not allowed to copy or share solutions from or with other students.
  
 ##CSQUIZ
 Assignment 1 is done in the online editor CSQUIZ.
