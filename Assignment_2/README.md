@@ -19,7 +19,10 @@ The requirements of the application is written below and consists of three use-c
 [Use Cases](Assignment2_Use_Cases.md)
 
 For each of the use-cases there are a number of test-cases
-Ideally your application should fullfill each test.
+
+[Mandatory Test Cases](Assignment2_Test_Cases_Mandatory.md "Mandatory Test-Cases")
+
+
 
 ## Task 2. Implement the requirements using interface
 
