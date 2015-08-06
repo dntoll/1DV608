@@ -17,6 +17,8 @@ Example: "Monday, the 8th of July 2015, The time is 10:59:21".
  
 ![After Input](notLoggedIn.png)
 
+***
+
 ##Test case 1.2: Failed login without any entered fields
 Make sure login cannot happen without entering any fields
 
@@ -31,6 +33,8 @@ Make sure login cannot happen without entering any fields
  * A form for login is shown
 
 ![After Input](usernameIsMissing.png)
+
+***
 
 ##Test case 1.3: Failed login with only username
 Make sure login cannot happen without entering both fields
@@ -48,6 +52,9 @@ Make sure login cannot happen without entering both fields
 
 ![After Input](MissingPassword.png)
 
+***
+
+
 ##Test case 1.4: Failed login with only password
 Make sure login cannot happen without entering both fields
 
@@ -64,7 +71,9 @@ Make sure login cannot happen without entering both fields
 
 ![After Input](MissingPassword.png)
 
-##Test case 1.4: Failed login with wrong password but existing username
+***
+
+##Test case 1.5: Failed login with wrong password but existing username
 Make sure login cannot happen without correct password
 
 ###Input:
@@ -80,3 +89,5 @@ Make sure login cannot happen without correct password
  * "Admin" is filled in as username
 
 ![After Input](WrongNameOrPass.png)
+
+***
