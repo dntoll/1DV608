@@ -16,6 +16,7 @@ Normal navigation to page, page is shown.
  * The text "Logged in", is shown.
  * The feedback "Welcome and you will be remembered" is shown
  * A logout button is shown
+ * Client has cookies for username and password, username is "Admin", password is a random string, unreadable
  
 ![After Input](loginwithkeep.png)
 ![After Input](cookies.png)
