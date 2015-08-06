@@ -150,7 +150,7 @@ Make sure we are kept logged in after a reload of the page
 Make sure we are logged in all windows and tabs of the same browser
 
 ###Input:
- * Testcase 1.8
+ * Testcase 1.7
  * Open another browser window or tab and enter the same adress as in Test case 1.1
  
 ###Output:
@@ -160,5 +160,39 @@ Make sure we are logged in all windows and tabs of the same browser
 
 
 ![After Input](TwoTabsLoggedIn.png)
+
+***
+
+##Test case 2.1: Logout
+Make sure we are logged out after pressing logout
+
+###Input:
+ * Testcase 1.7
+ * Press "logout" button
+ 
+###Output:
+ * The text "Not logged in", is shown.
+ * The feedback "Bye bye!" is shown
+ * An empty form for login is shown.
+
+
+![After Input](LoggedOut.png)
+
+***
+
+##Test case 2.2: Logout by closing the browser
+Make sure we are logged out after closing the browser
+
+###Input:
+ * Testcase 1.7
+ * Close the browser (every tab)
+ * Restart the browser
+ * Navigate to the URL
+ 
+###Output:
+ * See testcase 1.1
+
+
+![After Input](notLoggedIn.png)
 
 ***
