@@ -212,8 +212,9 @@ Make sure that we are REALLY logged out...
  * Both tabs: "Not logged in"
 
 ###Tab 1
-![After Input](notLoggedIn.png)
-###Tab 2
 ![After Input](LoggedOut.png)
+
+###Tab 2
+![After Input](notLoggedIn.png)
 
 ***
