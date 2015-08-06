@@ -20,3 +20,18 @@ Normal navigation to page, page is shown.
  
 ![After Input](loginwithkeep.png)
 ![After Input](cookies.png)
+
+##Test case 3.2, Reload removes feedback
+
+###Input:
+ * Test case 3.1
+ * Reload page
+ 
+###Output:
+ * The text "Logged in", is shown.
+ * No feedback is shown
+ * A logout button is shown
+ * Client has cookies for username and password, username is "Admin", password is a random string, unreadable
+ 
+![After Input](StillLoggedIn.png)
+![After Input](cookies.png)
