@@ -18,3 +18,4 @@ Normal navigation to page, page is shown.
  * A logout button is shown
  
 ![After Input](loginwithkeep.png)
+![After Input](cookies.png)
