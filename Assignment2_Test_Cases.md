@@ -17,6 +17,8 @@ Example: "Monday, the 8th of July 2015, The time is 10:59:21".
  
 ![After Input](notLoggedIn.png)
 
+***
+
 ##Test case 1.2: Failed login without any entered fields
 Make sure login cannot happen without entering any fields
 
@@ -31,6 +33,8 @@ Make sure login cannot happen without entering any fields
  * A form for login is shown
 
 ![After Input](usernameIsMissing.png)
+
+***
 
 ##Test case 1.3: Failed login with only username
 Make sure login cannot happen without entering both fields
@@ -48,6 +52,9 @@ Make sure login cannot happen without entering both fields
 
 ![After Input](MissingPassword.png)
 
+***
+
+
 ##Test case 1.4: Failed login with only password
 Make sure login cannot happen without entering both fields
 
@@ -64,7 +71,9 @@ Make sure login cannot happen without entering both fields
 
 ![After Input](MissingPassword.png)
 
-##Test case 1.4: Failed login with wrong password but existing username
+***
+
+##Test case 1.5: Failed login with wrong password but existing username
 Make sure login cannot happen without correct password
 
 ###Input:
@@ -80,3 +89,76 @@ Make sure login cannot happen without correct password
  * "Admin" is filled in as username
 
 ![After Input](WrongNameOrPass.png)
+
+***
+
+##Test case 1.6: Failed login with existing password but wrong username
+Make sure login cannot happen without correct username even if some user has that password
+
+###Input:
+ * Testcase 1.1
+ * Enter a password "Password" and let UserName be "admin" <-[Note the little 'a']
+ * Press "login" button
+ 
+###Output:
+ * The text "Not logged in", is shown.
+ * Feedback: "Wrong name or password" is shown
+ * A form for login is shown.
+ * Password is empty
+ * "admin" is filled in as username
+
+![After Input](WrongUserName.png)
+
+***
+
+##Test case 1.7: Successful login with correct Username and Password
+Make sure login will happen if correct username and password is used
+
+###Input:
+ * Testcase 1.1
+ * Enter a password "Password" and let UserName be "Admin"
+ * Press "login" button
+ 
+###Output:
+ * The text "Logged in", is shown.
+ * Feedback: "Welcome" is shown
+ * A button for logout is shown.
+ * (No login form)
+
+![After Input](LoginCorrect.png)
+
+***
+
+##Test case 1.8: Still login after reload
+Make sure we are kept logged in after a reload of the page 
+
+###Input:
+ * Testcase 1.7
+ * Reload the page without entering any information. (Select URL and press enter)
+ 
+###Output:
+ * The text "Logged in", is shown.
+ * No feedback is shown
+ * A button for logout is shown.
+
+
+![After Input](StillLoggedIn.png)
+
+***
+
+##Test case 1.9: Logged in in another Window
+Make sure we are logged in all windows and tabs of the same browser
+
+###Input:
+ * Testcase 1.8
+ * Open another browser window or tab and enter the same adress as in Test case 1.1
+ 
+###Output:
+ * The text "Logged in", is shown.
+ * No feedback is shown
+ * A button for logout is shown.
+
+
+![After Input](TwoTabsLoggedIn.png)
+
+***
