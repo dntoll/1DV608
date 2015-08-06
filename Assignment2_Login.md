@@ -16,7 +16,7 @@ The Assignment is done individually! You are not allowed to copy or take solutio
 ## Task 1. Explore requirements and test-cases.
 
 The requirements of the application is written below and consists of three use-cases.
-https://docs.google.com/document/d/1GJZNskYv4bfFhYHSq9jOsK8xmxtscxkuTkf9-f1KBtw/edit#
+[Use Cases](Assignment2_Use_Cases.md)
 
 For each of the use-cases there are a number of test-cases
 Ideally your application should fullfill each test.
