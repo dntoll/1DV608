@@ -196,3 +196,24 @@ Make sure we are logged out after closing the browser
 ![After Input](notLoggedIn.png)
 
 ***
+
+##Test case 2.3: Logged out in every window
+Make sure that we are REALLY logged out...
+
+###Input:
+ * Testcase 1.9
+ * press logout in one window/tab
+ * go to the other window/tab and reload (by selecting URL and press enter)
+ 
+###Output:
+ * First tab: "Bye bye!"
+ * second tab: "No feedback"
+ * Both tabs: login form is shown
+ * Both tabs: "Not logged in"
+
+###Tab 1
+![After Input](notLoggedIn.png)
+###Tab 2
+![After Input](LoggedOut.png)
+
+***
