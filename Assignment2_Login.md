@@ -21,4 +21,6 @@ https://docs.google.com/document/d/1GJZNskYv4bfFhYHSq9jOsK8xmxtscxkuTkf9-f1KBtw/
 For each of the use-cases there are a number of test-cases
 Ideally your application should fullfill each test.
 
+## Task 2. Implement the requirements using interface
+
 
