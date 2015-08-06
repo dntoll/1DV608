@@ -196,3 +196,20 @@ Make sure we are logged out after closing the browser
 ![After Input](notLoggedIn.png)
 
 ***
+
+##Test case 2.3: Still logged out after reload
+Make sure we are truly logged out...
+
+###Input:
+ * Testcase 2.1
+ * Reload the page
+ 
+###Output:
+ * The text "Not logged in", is shown.
+ * No feedback is shown
+ * An empty form for login is shown.
+
+
+![After Input](LoggedOut.png)
+
+***
