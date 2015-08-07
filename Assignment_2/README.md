@@ -33,7 +33,7 @@ Testing of the application requires two different browsers, and a tool to manipu
 
 [Volontary Test Cases for higher grades](Assignment2_Volontary_Test_cases.md "Volontary Test-Cases for higher grade")
 
-[Test Application](http://csquiz.lnu.se:81/ "Application To test requirements on)
+[Test Application](http://csquiz.lnu.se:81/ "Application To test requirements on")
 
 ## Task 2. Implement the requirements using interface
 
