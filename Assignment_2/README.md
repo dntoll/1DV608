@@ -12,6 +12,9 @@ After completing the assignment the student should have...
  
 ## Rules
 The Assignment is done individually! You are not allowed to copy or take solutions from others.
+
+All mandatory test-cases should be successful for the assignment to be approved (minimum for Grade E).
+For higher grades some or all of the volontary test-cases should be fullfilled.
  
 ## Task 1. Explore requirements and test-cases.
 
@@ -28,8 +31,9 @@ Testing of the application requires two different browsers, and a tool to manipu
 
 [Mandatory Test Cases](Assignment2_Test_Cases_Mandatory.md "Mandatory Test-Cases")
 
-[Volontary Test Cases](Assignment2_Volontary_Test_cases.md "Volontary Test-Cases for higher grade")
+[Volontary Test Cases for higher grades](Assignment2_Volontary_Test_cases.md "Volontary Test-Cases for higher grade")
 
+[Test-application](http://csquiz.lnu.se:81/ "Application To test requirements on)
 
 ## Task 2. Implement the requirements using interface
 
