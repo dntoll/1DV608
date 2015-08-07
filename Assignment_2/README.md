@@ -16,12 +16,19 @@ The Assignment is done individually! You are not allowed to copy or take solutio
 ## Task 1. Explore requirements and test-cases.
 
 The requirements of the application is written below and consists of three use-cases.
+
 [Use Cases](Assignment2_Use_Cases.md)
 
-For each of the use-cases there are a number of test-cases
+For each of the use-cases there are a number of test-cases. The test cases are given in the following format. 
+ * Input, steps to do. In some cases another test-case, if so do the input steps of that test-case.
+ * Output, things you should observe or not observe if the test-case is successful.
+ * Image, an image of the result after Input steps are done.
+ 
+Testing of the application requires two different browsers, and a tool to manipulate cookies, like "firebug".
 
 [Mandatory Test Cases](Assignment2_Test_Cases_Mandatory.md "Mandatory Test-Cases")
 
+[Volontary Test Cases](Assignment2_Volontary_Test_cases.md "Volontary Test-Cases for higher grade")
 
 
 ## Task 2. Implement the requirements using interface
