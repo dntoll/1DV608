@@ -63,8 +63,42 @@ Make sure login attempts fail if cookies are manipulated.
  * Reload the page by selecting URL and press Enter
 
 ###Output
- * Wrong information in cookies
+ * Feedback "Wrong information in cookies"
  * The text "Not logged in" is shown
  * Cookies for login is removed (only PHPSESSID cookie is left)
  
 ![After Input](WrongInformationInCookies.png)
+
+##Test case 3.5, Failed login by manipulated "to old" cookie
+Make sure login attempts fail if cookies are manipulated to last longer.
+
+###Input:
+ * Test case 3.1
+ * Remove the PHPSESSID cookie
+ * Change the expiration-time of the username and password cookies (For example by FireBug plugin for Firefox)
+ * Wait until the original expiration time has gone out.
+ * Reload the page by selecting URL and press Enter
+
+###Output
+ * Feedback "Wrong information in cookies"
+ * The text "Not logged in" is shown
+ * Cookies for login is removed (only PHPSESSID cookie is left)
+ 
+![After Input](WrongInformationInCookies.png)
+
+##Test case 3.6, Stop session hijacking
+Make sure a session cookie is not valid in another browser.
+
+###Input:
+ * Start two different browsers (B1 and B2), for example one FireFox and one Chrome browser.
+ * B1. Test case 1.7 (Login)
+ * B2. Test case 1.1 (Navigate to page)
+ * B1. Copy the PHPSESSID cookie values 
+ * B2. Create a copy of the PHPSESSID cookie from B2 by changing its value to the same line
+ * B2. Reload the page in B2 
+
+###Output
+ * B2. No Feedback given
+ * B2. The text "Not logged in" is shown
+ * B1. Still logged in...
+ 
