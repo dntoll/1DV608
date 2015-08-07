@@ -11,6 +11,7 @@ System Quality Requirements
  * System provides helpful error messages
  * System avoids unnecessary input
  * The system should be secure
+ * The system should follow web standards.
 
 Security Considerations
  * SQL injections
