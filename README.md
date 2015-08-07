@@ -7,12 +7,12 @@ These knowledges are not unique for PHP but will serve you in other languages as
 
  * How can I improve readability and understandability and reduce complexity?
  * What is good code?
- * What is an suitable architecture for web-apps?
+ * What is a suitable architecture for web-apps?
  * How can we use constraints to improve the implementaion of that architecture?
  
 The course is a mixed online and two campuses course. 
- * Campus Kalmar (Lectures, Laborations and Seminars are given here)
- * Campus Växjö (Mostly online but some examinations, seminars and course introduction on Växjö campus)
+ * Campus Kalmar (Lectures, Laborations and Seminars are given in Kalmar)
+ * Campus Växjö (Some examinations, seminars and course introduction on Växjö campus, other lectures are provided online)
  * Online ( All lectures, laborations, seminars and examinations is online)
 
 The course is given in the form of lectures, seminars, and programming assignments.
