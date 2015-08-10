@@ -129,7 +129,7 @@ Make sure login will happen if correct username and password is used
 
 ***
 
-##Test case 1.8: Still login after reload
+##Test case 1.8: Still logged in after reload
 Make sure we are kept logged in after a reload of the page 
 
 ###Input:
