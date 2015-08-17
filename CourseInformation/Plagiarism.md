@@ -11,5 +11,6 @@ In this course we will use tools to detect plagiarism.
  * Regularly commit code to a code repository (for example GitHub)
  * It is ok to read and discuss others code.
  * If you find a good source, add a comment-link to that source
+ * If you must include code from another source, make sure that code is in a "vendors" folder
 
 http://lnu.se/polopoly_fs/1.110017!Guide%20for%20international%20students%20A5%20130610.pdf

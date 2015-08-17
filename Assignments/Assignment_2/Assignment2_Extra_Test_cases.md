@@ -18,8 +18,8 @@ Normal navigation to page, page is shown.
  * A logout button is shown
  * Client has cookies for username and password, username is "Admin", password is a random string, unreadable
  
-![After Input](loginwithkeep.png)
-![After Input](cookies.png)
+![After Input](images/loginwithkeep.png)
+![After Input](images/cookies.png)
 
 ##Test case 3.2, Reload removes feedback
 
@@ -33,8 +33,8 @@ Normal navigation to page, page is shown.
  * A logout button is shown
  * Client has cookies for username and password, username is "Admin", password is a random string, unreadable
  
-![After Input](StillLoggedIn.png)
-![After Input](cookies.png)
+![After Input](images/StillLoggedIn.png)
+![After Input](images/cookies.png)
 
 
 ##Test case 3.3, Login by cookies
@@ -50,8 +50,8 @@ Normal navigation to page, page is shown.
  * A logout button is shown
  * Client still has cookies for username and password, username is "Admin", password is a random string, unreadable
  
-![After Input](LoginByCookies.png)
-![After Input](cookies.png)
+![After Input](images/LoginByCookies.png)
+![After Input](images/cookies.png)
 
 ##Test case 3.4, Failed login by manipulated cookies
 Make sure login attempts fail if cookies are manipulated.
@@ -67,7 +67,7 @@ Make sure login attempts fail if cookies are manipulated.
  * The text "Not logged in" is shown
  * Cookies for login is removed (only PHPSESSID cookie is left)
  
-![After Input](WrongInformationInCookies.png)
+![After Input](images/WrongInformationInCookies.png)
 
 ##Test case 3.5, Failed login by manipulated "to old" cookie
 Make sure login attempts fail if cookies are manipulated to last longer.
@@ -84,7 +84,7 @@ Make sure login attempts fail if cookies are manipulated to last longer.
  * The text "Not logged in" is shown
  * Cookies for login is removed (only PHPSESSID cookie is left)
  
-![After Input](WrongInformationInCookies.png)
+![After Input](images/WrongInformationInCookies.png)
 
 ##Test case 3.6, Stop session hijacking
 Make sure a session cookie is not valid in another browser.

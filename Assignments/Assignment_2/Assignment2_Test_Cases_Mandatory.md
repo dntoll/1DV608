@@ -15,7 +15,7 @@ Example: "Monday, the 8th of July 2015, The time is 10:59:21".
  * A form for login is shown
  * Todays date and time is shown in correct format.
  
-![After Input](notLoggedIn.png)
+![After Input](images/notLoggedIn.png)
 
 ***
 
@@ -32,7 +32,7 @@ Make sure login cannot happen without entering any fields
  * Feedback: “Username is missing” is shown
  * A form for login is shown
 
-![After Input](usernameIsMissing.png)
+![After Input](images/usernameIsMissing.png)
 
 ***
 
@@ -50,7 +50,7 @@ Make sure login cannot happen without entering both fields
  * A form for login is shown.
  * "Admin" is filled in as username
 
-![After Input](MissingPassword.png)
+![After Input](images/MissingPassword.png)
 
 ***
 
@@ -69,7 +69,7 @@ Make sure login cannot happen without entering both fields
  * A form for login is shown.
  * Password is empty
 
-![After Input](MissingPassword.png)
+![After Input](images/MissingPassword.png)
 
 ***
 
@@ -88,7 +88,7 @@ Make sure login cannot happen without correct password
  * Password is empty
  * "Admin" is filled in as username
 
-![After Input](WrongNameOrPass.png)
+![After Input](images/WrongNameOrPass.png)
 
 ***
 
@@ -107,7 +107,7 @@ Make sure login cannot happen without correct username even if some user has tha
  * Password is empty
  * "admin" is filled in as username
 
-![After Input](WrongUserName.png)
+![After Input](images/WrongUserName.png)
 
 ***
 
@@ -125,7 +125,7 @@ Make sure login will happen if correct username and password is used
  * A button for logout is shown.
  * (No login form)
 
-![After Input](LoginCorrect.png)
+![After Input](images/LoginCorrect.png)
 
 ***
 
@@ -142,7 +142,7 @@ Make sure we are kept logged in after a reload of the page
  * A button for logout is shown.
 
 
-![After Input](StillLoggedIn.png)
+![After Input](images/StillLoggedIn.png)
 
 ##Test case 1.8.1: Still logged in after reload with resend of information (f5)
 Make sure we are kept logged in after a reload of the page 
@@ -157,7 +157,7 @@ Make sure we are kept logged in after a reload of the page
  * A button for logout is shown.
 
 
-![After Input](StillLoggedIn.png)
+![After Input](images/StillLoggedIn.png)
 
 ***
 
@@ -174,7 +174,7 @@ Make sure we are logged in all windows and tabs of the same browser
  * A button for logout is shown.
 
 
-![After Input](TwoTabsLoggedIn.png)
+![After Input](images/TwoTabsLoggedIn.png)
 
 ***
 
@@ -191,7 +191,7 @@ Make sure we are logged out after pressing logout
  * An empty form for login is shown.
 
 
-![After Input](LoggedOut.png)
+![After Input](images/LoggedOut.png)
 
 ***
 
@@ -208,7 +208,7 @@ Make sure we are logged out after closing the browser
  * See testcase 1.1
 
 
-![After Input](notLoggedIn.png)
+![After Input](images/notLoggedIn.png)
 
 ***
 
@@ -227,10 +227,10 @@ Make sure that we are REALLY logged out...
  * Both tabs: "Not logged in"
 
 ###Tab 1
-![After Input](LoggedOut.png)
+![After Input](images/LoggedOut.png)
 
 ###Tab 2
-![After Input](notLoggedIn.png)
+![After Input](images/notLoggedIn.png)
 
 ***
 
