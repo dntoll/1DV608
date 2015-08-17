@@ -1,5 +1,3 @@
-# Course Deadlines and mandatory examinations
- 
  * V37, Assignment 1. Complete Assignments before deadline
   * Deadline: 2015-09-10, 13:00 
  * V39, Assignment 2. Functional examination of application and Code Inspection by Teacher/Amanuens
