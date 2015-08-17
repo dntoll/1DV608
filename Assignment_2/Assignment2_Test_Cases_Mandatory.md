@@ -144,6 +144,21 @@ Make sure we are kept logged in after a reload of the page
 
 ![After Input](StillLoggedIn.png)
 
+##Test case 1.8.1: Still logged in after reload with resend of information (f5)
+Make sure we are kept logged in after a reload of the page 
+
+###Input:
+ * Testcase 1.7
+ * Reload the page without entering any information. (Resend POST information with f5)
+ 
+###Output:
+ * The text "Logged in", is shown.
+ * No feedback is shown
+ * A button for logout is shown.
+
+
+![After Input](StillLoggedIn.png)
+
 ***
 
 ##Test case 1.9: Logged in in another Window
@@ -218,3 +233,16 @@ Make sure that we are REALLY logged out...
 ![After Input](notLoggedIn.png)
 
 ***
+
+##Test case 2.4: Logout cannot happen if not logged in
+Make sure we are logged out after closing the browser
+
+###Input:
+ * Testcase 1.7 
+ * Press logout
+ * Resend the POST information by reloading with F5
+
+###Output:
+ * See testcase 1.1
+ * No message is shown
+
