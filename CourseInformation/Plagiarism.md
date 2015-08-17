@@ -1,5 +1,3 @@
-# Plagiarism
-
 All implementation in laborations and project in this course MUST be done individually. 
 Suspected attempts of plagiarism will be reported according to the rules and regulations of Linnaeus University. 
 
