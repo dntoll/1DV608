@@ -1,5 +1,3 @@
-#Assignment 1
-
 ##Goals
 
 A Quick introduction to working with PHP.
