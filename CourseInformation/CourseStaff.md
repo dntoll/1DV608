@@ -1,5 +1,3 @@
-# Course Staff
-
 Daniel Toll
 -----------
 
