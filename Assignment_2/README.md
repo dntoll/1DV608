@@ -55,9 +55,11 @@ Testing of the application requires two different browsers, and a tool to manipu
 
 [Mandatory Test Cases](Assignment2_Test_Cases_Mandatory.md "Mandatory Test-Cases")
 
-[Volontary Test Cases for higher grades](Assignment2_Volontary_Test_cases.md "Volontary Test-Cases for higher grade")
+[Extra Test Cases for higher grades](Assignment2_Extra_Test_cases.md "Extra Test-Cases for higher grade")
 
 [Test Application](http://csquiz.lnu.se:81/ "Application To test requirements on")
+
+[Automated tests Application](http://csquiz.lnu.se:82/ "Application To test your on")
 
 ## Task 2. Implement the requirements using interface
 
