@@ -1,4 +1,4 @@
-# Tools
+
 You are going to need the following tools.
 
 ## Git
