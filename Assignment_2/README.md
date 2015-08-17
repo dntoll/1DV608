@@ -109,7 +109,6 @@ Test your release
   * Commit and push to repository
  * Release code to server
   * Go to http://csquiz.lnu.se:82/ and enter your server adress with your user-id
-  * Make not of errors 
   * Fix problems locally, then release to server and retest
 
 ## Assignment submission
