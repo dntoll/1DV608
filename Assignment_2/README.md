@@ -62,7 +62,7 @@ Testing of the application requires two different browsers, and a tool to manipu
 
 [Automated tests Application](http://csquiz.lnu.se:82/ "Application To test your on")
 
-## Task 2. Fork and test
+## Task 2. Copy the code and get your servers set up.
 
 Now its time to implement the requirements using use-cases and test-cases.
 
