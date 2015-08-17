@@ -117,4 +117,4 @@ Test your release
  * Commit and push to GitHub
  * Upload latest version on public server
  * Run http://csquiz.lnu.se:82/ against your public server
- * Fill in the submission form here: 
+ * Fill in the submission form here: http://goo.gl/forms/SYKXHZM9Ey
