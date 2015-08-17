@@ -1,4 +1,3 @@
-#Course Literature
 There is no obligatory course literature other than lecture notes. Main focus is practical programming.
 
 ## Reference Literature
