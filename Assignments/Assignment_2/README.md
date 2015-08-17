@@ -1,5 +1,3 @@
-##Assignment 2, Login
-
 ##Goals
 
 Assignment 2 aims to let you work with real tools, requirements, tests and release a web application on a public server.
