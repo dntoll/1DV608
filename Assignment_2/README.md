@@ -54,13 +54,13 @@ For each of the use-cases there are a number of test-cases. The test cases are g
  
 Testing of the application requires two different browsers, and a tool to manipulate cookies, like "firebug".
 
-[Mandatory Test Cases](Assignment2_Test_Cases_Mandatory.md "Mandatory Test-Cases")
+[Mandatory Test Cases](Assignment2_Test_Cases_Mandatory.md "Mandatory Test-Cases"), These are the requirements everyones solutions must fullfill all of.
 
-[Extra Test Cases for higher grades](Assignment2_Extra_Test_cases.md "Extra Test-Cases for higher grade")
+[Extra Test Cases for higher grades](Assignment2_Extra_Test_cases.md "Extra Test-Cases for higher grade") These are the extra test-cases for extra credit.
 
-[Test Application](http://csquiz.lnu.se:81/ "Application To test requirements on")
+[Test Application](http://csquiz.lnu.se:81/ "Application To test requirements on"). This is an example solution for assignment 2. It fulfills all the test-cases above.
 
-[Automated tests Application](http://csquiz.lnu.se:82/ "Application To test your on")
+[Automated tests Application](http://csquiz.lnu.se:82/ "Application To test your on"). This is an automated acceptance test system to speed up the testing process. 
 
 ## Task 2. Copy the code and get your servers set up.
 
