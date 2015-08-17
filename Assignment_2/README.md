@@ -101,7 +101,11 @@ Test your release
   * press Check
   * you should get a "Estimated score on assignment: 5%." and a LOT of errors
 
+###Task 3. Implement the requirements.
 
+ * Implement a requirement
+ * Test locally using the manual test-cases
+ * 
 
 
 ## Assignment submission
