@@ -3,7 +3,7 @@
 
 The requirements of the application is written below and consists of three use-cases.
 
-[Use Cases](Assignment2_Use_Cases.md, "Assignment 2 use-cases")
+[Use Cases](https://github.com/dntoll/1DV608/blob/master/Assignments/Assignment_2/Assignment2_Use_Cases.md, "Assignment 2 use-cases")
 
 For each of the use-cases there are a number of test-cases. The test cases are given in the following format. 
  * Input, steps to do. In some cases another test-case, if so do the input steps of that test-case.
@@ -12,9 +12,9 @@ For each of the use-cases there are a number of test-cases. The test cases are g
  
 Testing of the application requires two different browsers, and a tool to manipulate cookies, like "firebug".
 
-[Mandatory Test Cases](Assignment2_Test_Cases_Mandatory.md "Mandatory Test-Cases"), These are the requirements everyones solutions must fullfill all of.
+[Mandatory Test Cases](https://github.com/dntoll/1DV608/blob/master/Assignments/Assignment_2/Assignment2_Test_Cases_Mandatory.md "Mandatory Test-Cases"), These are the requirements everyones solutions must fullfill all of.
 
-[Extra Test Cases for higher grades](Assignment2_Extra_Test_cases.md "Extra Test-Cases for higher grade") These are the extra test-cases for extra credit.
+[Extra Test Cases for higher grades](https://github.com/dntoll/1DV608/blob/master/Assignments/Assignment_2/Assignment2_Extra_Test_cases.md "Extra Test-Cases for higher grade") These are the extra test-cases for extra credit.
 
 [Test Application](http://csquiz.lnu.se:81/ "Application To test requirements on"). This is an example solution for assignment 2. It fulfills all the test-cases above.
 
