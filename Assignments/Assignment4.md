@@ -1,5 +1,0 @@
-#Register Users
-
-##Goals
-
-##Rules
