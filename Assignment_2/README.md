@@ -68,7 +68,7 @@ Now its time to implement the requirements using use-cases and test-cases.
 
 The assignment will be tested using a Automated unit test application. To allow this we will first fork the interface application for that project on GitHub. 
 
- git clone https://github.com/dntoll/Login_1DV608.git
+ ``git clone https://github.com/dntoll/Login_1DV608.git``
 
 
 ## Assignment submission
