@@ -21,10 +21,11 @@ For approval are the following requirements:
  * The code must be deployed on a public web server
  * All mandatory test-cases should be successful for the assignment to be approved.
  * No code is copied from others
+ * Application is submitted before deadline.
 
 For higher grades (> E) :
  * All the requirements from approved...
- * Some or all of the volontary test-cases should be fullfilled.
+ * Some or all of the extra test-cases should be fullfilled.
  * The application is well tested even outside of the explicit tests
  * Code looks good
   * Code is well commented
@@ -40,11 +41,11 @@ For higher grades (> E) :
   * No output generation in Model or Controller
  * Code is presented well on git (eg. README.md )
  
-## Task 1. Explore requirements and test-cases.
+## Task 1. Explore requirements, example application, and test-cases.
 
 The requirements of the application is written below and consists of three use-cases.
 
-[Use Cases](Assignment2_Use_Cases.md)
+[Use Cases](Assignment2_Use_Cases.md, "Assignment 2 use-cases")
 
 For each of the use-cases there are a number of test-cases. The test cases are given in the following format. 
  * Input, steps to do. In some cases another test-case, if so do the input steps of that test-case.
@@ -61,6 +62,15 @@ Testing of the application requires two different browsers, and a tool to manipu
 
 [Automated tests Application](http://csquiz.lnu.se:82/ "Application To test your on")
 
-## Task 2. Implement the requirements using interface
+## Task 2. Fork and test
+
+Now its time to implement the requirements using use-cases and test-cases.
+
+The assignment will be tested using a Automated unit test application. To allow this we will first fork the interface application for that project on GitHub. 
+
+ git clone https://github.com/dntoll/Login_1DV608.git
+
+
+## Assignment submission
 
 
