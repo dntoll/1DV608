@@ -110,10 +110,11 @@ Test your release
  * Release code to server
   * Go to http://csquiz.lnu.se:82/ and enter your server adress with your user-id
   * Make not of errors 
-  * Fix problems locally
-
-
+  * Fix problems locally, then release to server and retest
 
 ## Assignment submission
 
-
+ * Commit and push to GitHub
+ * Upload latest version on public server
+ * Run http://csquiz.lnu.se:82/ against your public server
+ * Fill in the submission form here: 
