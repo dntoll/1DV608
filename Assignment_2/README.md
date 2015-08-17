@@ -103,9 +103,15 @@ Test your release
 
 ###Task 3. Implement the requirements.
 
- * Implement a requirement
- * Test locally using the manual test-cases
- * 
+ * while (you have requirements to implement)
+  * Implement a requirement
+  * Test locally using the manual test-cases
+  * Commit and push to repository
+ * Release code to server
+  * Go to http://csquiz.lnu.se:82/ and enter your server adress with your user-id
+  * Make not of errors 
+  * Fix problems locally
+
 
 
 ## Assignment submission
