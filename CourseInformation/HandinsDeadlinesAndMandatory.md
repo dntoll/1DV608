@@ -4,8 +4,9 @@
   * Feedback: Directly in CSQUIZ
  * V39, Assignment 2. Complete and submit assignment 2 before deadline
   * Deadline: Examination time in schedule. Week number 39
-  * Feedback: Given during examination time in schedule
+  * Feedback: Given during examination time in schedule, task walkthrough
   * Examination: Functional examination of application and Code Inspection by Teacher/Amanuens
+  * Late/Not approved students will get another examination task.
  * V40, Assignment 3. Complete all tasks in assignment 3 before deadline
   * Deadline: 2015-10-1, 13:00 
   * Examination: Automatic assessment of completed assignments
@@ -14,15 +15,18 @@
   * Deadline: Examination time in schedule. Week number 41
   * Feedback: Given during examination time in schedule
   * Examination: Functional examination of application and Code Inspection by Teacher/Amanuens
+  * Late/Not approved students will get another examination task.
  * V42, Workshop, Mandatory Group Work during Workshop time
   * Mandatory Presence: Workshop time in schedule
  * V44, Project submission, Submit project and code before deadline
   * Deadline: 2015-10-28, 08:00
  * V44, Project Presentation, Mandatory Presentation of Project
   * Mandatory Presence: The entire presentation time in schedule
+  * Late/Not approved students will get a written examination task
  * V44, Handin of Corrected assignments
   * Deadline: Examination time in schedule. Week 44
   * Feedback: Given by email
   * Mandatory: During Booked Time
   * Examination: Functional examination of application, and Code Inspection by Teacher/Amanuens
+  * Late/Not approved students will get another examination task.
  
