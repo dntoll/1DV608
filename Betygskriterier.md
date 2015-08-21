@@ -21,8 +21,8 @@ Betyg viktas mellan laboration 2 och 4 med vikterna 0,5, 0,5
 
 Projekt: 1 seminarie, projektinlämning, slutredovisning med vikter 0.2, 0.5, 0.3
 Exempel: Studenten Lisa har fått betygen A, E, och A på projektet, betyget för projektet blir då
-(viktat aritmetiskt medelvärde) 9x0,2 + 5x*0,5 + 9x0,3+7*0,4/ 1 = 7 vilket ger betyg C.
+(viktat aritmetiskt medelvärde) 9 x 0,2 + 5 x 0,5 + 9 x 0,3 + 7 x 0,4 = 7 vilket ger betyg C.
 
 Slutbetyg beräknas med ett viktat medelvärde med vikterna 0,5 och 0,5. 
 Exempel: Vi antar att Lisa har B på Laborationerna.
-8x0,5 + 7x0,5 /1 = 7,5 avrundas neråt till 7 vilket ger ett C i slutbetyg.
+8 x 0,5 + 7 x 0,5 = 7,5 avrundas neråt till 7 vilket ger ett C i slutbetyg.
