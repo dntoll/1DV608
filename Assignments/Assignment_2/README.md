@@ -18,7 +18,6 @@ Examiner sets the degree using the following:
  * Code quality
  * MVC implementation
 
-The degree 
 
 ###The set of minimum requirements for approved is:
 * Solution has been submitted before the deadline
