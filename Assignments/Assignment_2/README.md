@@ -44,6 +44,8 @@ Examiner sets the degree using the following guidance.
   * Avoid arrays when dealing with something that is a class.
   * Errors are handled well 
  * Code Repository is presented well on git (eg. README.md )
+ * No string dependencies, uses strategies to avoid them
+ * Avoid complexity (like several nested if-statements)
 
 ###MVC implementation
  * Code is separated into Model View Controller components
@@ -51,8 +53,6 @@ Examiner sets the degree using the following guidance.
   * No dependencies from View to Controller 
   * Only use $_GET, $_POST, $_COOKIES etc in View-classes
   * No output generation in Model or Controller
-  * Avoids string dependencies, uses strategies to avoid them
-  * Avoid complexity (like several nested if-statements)
   * No View responsibilities in Model or Controller
   * No Model responsibilities in View or Controller
   * No Controller responsibilities in View or Model
