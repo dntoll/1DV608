@@ -24,6 +24,7 @@ For grade ( >= E) are the following requirements:
  * The code must be deployed on a public web server
  * Code has been tested with the automated test application.
  * All mandatory test-cases should be manually successful for the assignment to be approved.
+ * Examiner sets the degree
 
 For higher grades (>= D) :
  * All the requirements from above...
