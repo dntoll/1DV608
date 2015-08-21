@@ -13,10 +13,12 @@ The Assignment is done individually! You are not allowed to copy or take solutio
 
 Your solution will/may be shared with other students after the deadline.
 
-Examiner sets the degree using the following guidance.
+Examiner sets the degree using the following:
  * Requirement fulfillment
  * Code quality
  * MVC implementation
+
+The degree 
 
 ###The set of minimum requirements for approved is:
 * Solution has been submitted before the deadline
@@ -31,7 +33,7 @@ Examiner sets the degree using the following guidance.
 
 ###Requirement fulfillment
  * All mandatory test-cases should be successful 
- * Test-cases should be manually and automately testable (using the test application).
+ * Test-cases should be manually and automatically testable (using the test application).
  * The more testcases that are fullfilled, the better
  * The application is well tested even outside of the explicit tests
  * Application works as the example implementation
@@ -42,10 +44,12 @@ Examiner sets the degree using the following guidance.
   * Good Understandable identifier naming   
   * [Code is well commented and selfexplanatory](https://www.youtube.com/watch?v=d2nqNtzLEIg)
   * Avoid arrays when dealing with something that is a class.
-  * Errors are handled well 
+  * Proper indentation
+ * Errors are handled well (assert and exceptions)
  * Code Repository is presented well on git (eg. README.md )
- * No string dependencies, uses strategies to avoid them
- * Avoid complexity (like several nested if-statements)
+ * Dependencies are explicit or encapsulated
+  * No string dependencies, uses strategies to avoid them
+ * Avoid complexity
 
 ###MVC implementation
  * Code is separated into Model View Controller components
