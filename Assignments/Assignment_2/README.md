@@ -53,3 +53,4 @@ For the grade A
  * Code and presentation is of very good quality
  * No View responsibilities in Model or Controller
  * No Model responsibilities in View or Controller
+ * No Controller responsibilities in View or Model
