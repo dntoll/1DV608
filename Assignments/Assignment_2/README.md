@@ -35,8 +35,9 @@ For higher grades (>= D) :
   * [Code is well commented and selfexplanatory](https://www.youtube.com/watch?v=d2nqNtzLEIg)
   * Avoid arrays when dealing with something that is a class.
   * Errors are handled well 
-  
- For even higher grades >= C
+ 
+
+For even higher grades >= C
  * All of the extra test-cases should be fullfilled. 
  * Code is separated into Model View Controller components
   * No dependencies from Model to Controller or View
