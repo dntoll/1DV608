@@ -28,7 +28,7 @@ For higher grades (> E) :
  * Some or all of the extra test-cases should be fullfilled.
  * The application is well tested even outside of the explicit tests
  * Code looks good
-  * Code is well commented
+  * [Code is well commented and selfexplanatory](https://www.youtube.com/watch?v=d2nqNtzLEIg)
   * Avoid complexity (like several nested if-statements)
   * Avoid string dependencies
   * Avoid arrays when dealing with something that is a class.
