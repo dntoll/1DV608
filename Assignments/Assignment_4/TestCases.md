@@ -1,11 +1,18 @@
-Testfall 4.1: Visa registerformulär
+##Mandatory Testcases
 
-Input:
-Testfall 1.1 Navigera till sidan
-Klicka “Registrera ny användare”
-Output:
-Feedback saknas
-Ej Inloggad, Registrerar användare
-Formulär för registrering av användare syns
-Datum visas på Svenska.
-Bakåtknapp, “Tillbaka”
+##Test case 4.1, Show Register Form
+When user wants to register a registration form should be shown.
+
+###Input:
+ * Test Case 1.1 Navigate to site.
+ * Press "Register new user"
+ 
+###Output:
+ * The text "Not logged in", is shown.
+ * A form for Registration of a new user is shown
+ * A button/link with text "Back to login" is shown.
+ * Todays date and time is shown in correct format.
+ 
+![After Input](images/notLoggedIn.png)
+
+***
