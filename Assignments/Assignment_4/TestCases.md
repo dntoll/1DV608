@@ -11,8 +11,20 @@ When user wants to register a registration form should be shown.
  * The text "Not logged in", is shown.
  * A form for Registration of a new user is shown
  * A button/link with text "Back to login" is shown.
- * Todays date and time is shown in correct format.
- 
+
 ![After Input](http://goo.gl/yKkHn0)
 
 ***
+
+
+Testfall 4.2 Back to login
+
+###Input:
+ * Testfall 4.1. Show Register Form
+ * Click “Back to login”
+###Output:
+ * No feedback message
+ * The text "Not logged in", is shown.
+ * Form for login is shown
+
+![After Input](http://goo.gl/B4o438)
