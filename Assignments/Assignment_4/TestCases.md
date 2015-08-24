@@ -17,14 +17,31 @@ When user wants to register a registration form should be shown.
 ***
 
 
-Testfall 4.2 Back to login
+##Test case 4.2 Back to login
 
 ###Input:
- * Testfall 4.1. Show Register Form
- * Click “Back to login”
+ * Test case 4.1. Show Register Form
+ * Click "Back to login"
+
 ###Output:
  * No feedback message
  * The text "Not logged in", is shown.
  * Form for login is shown
 
 ![After Input](http://goo.gl/B4o438)
+
+***
+
+##Testfall 4.3: Registrera utan uppgifter misslyckas
+
+###Input:
+ * Test case 4.1. Show Register Form
+ * Click "Register" button without filling in any fields
+
+###Output:
+ * Message "Username has too few characters, at least 3 characters"
+ * Message "Password has too few characters, at least 6 characters"
+ * The text "Not logged in", is shown.
+ * Still shows the register form
+
+
