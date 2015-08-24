@@ -13,6 +13,6 @@ When user wants to register a registration form should be shown.
  * A button/link with text "Back to login" is shown.
  * Todays date and time is shown in correct format.
  
-![After Input](images/notLoggedIn.png)
+![After Input](http://goo.gl/yKkHn0)
 
 ***
