@@ -5,7 +5,7 @@ When user wants to register a registration form should be shown.
 
 ###Input:
  * Test Case 1.1 Navigate to site.
- * Press "Register new user"
+ * Press "Register a new user"
  
 ###Output:
  * The text "Not logged in", is shown.
