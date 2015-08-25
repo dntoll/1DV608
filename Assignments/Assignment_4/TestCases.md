@@ -43,4 +43,5 @@ When user wants to register a registration form should be shown.
  * The text "Not logged in", is shown.
  * Still shows the register form
 
+![After Input](http://goo.gl/8Qo3HX)
 
