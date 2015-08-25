@@ -114,7 +114,7 @@ When user wants to register a registration form should be shown.
  * The text "Not logged in", is shown.
  * Shows the register form with the name filled in, like "admina".
 
-![After Input](http://goo.gl/hr1p04) 
+![After Input](http://goo.gl/p1Wt8G) 
 
  
 
