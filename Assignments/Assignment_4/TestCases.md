@@ -51,7 +51,7 @@ When user wants to register a registration form should be shown.
 
 ###Input:
  * Test case 4.1. Show Register Form
- * Enter a name with at least 6 characters not entered before like "admina"
+ * Enter a valid name with at least 6 characters not entered before like "admina"
  * Click "Register" button 
 
 ###Output:
@@ -68,16 +68,53 @@ When user wants to register a registration form should be shown.
 
 ###Input:
  * Test case 4.1. Show Register Form
- * Enter a name with 2 characters not entered before like "ad"
+ * Enter a name with 2 characters like "ad"
  * Enter a valid password like "Password"
  * Enter the same repeat password like "Password"
  * Click "Register" button 
 
 ###Output:
- * Message: Username has too few characters, at least 3 characters."
+ * Message: "Username has too few characters, at least 3 characters."
  * The text "Not logged in", is shown.
  * Shows the register form with the name filled in, like "ad".
+  
+![After Input](http://goo.gl/uB1yNe) 
 
+***
+
+##Test case 4.6: Register with a short password should fail
+
+###Input:
+ * Test case 4.1. Show Register Form
+ * Enter a valid name with at least 6 characters not entered before like "admina"
+ * Enter a invalid password like "Passw"
+ * Enter the same repeat password like "Passw"
+ * Click "Register" button 
+
+###Output:
+ * Message: "Password has too few characters, at least 6 characters."
+ * The text "Not logged in", is shown.
+ * Shows the register form with the name filled in, like "admina".
+
+![After Input](http://goo.gl/hr1p04) 
+
+***
+
+##Test case 4.7: Register with a different passwords should fail
+
+###Input:
+ * Test case 4.1. Show Register Form
+ * Enter a valid name with at least 6 characters not entered before like "admina"
+ * Enter a valid password like "Password"
+ * Enter another valid repeat password like "Losenord"
+ * Click "Register" button 
+
+###Output:
+ * Message: "Passwords do not match."
+ * The text "Not logged in", is shown.
+ * Shows the register form with the name filled in, like "admina".
+
+![After Input](http://goo.gl/hr1p04) 
 
  
 
