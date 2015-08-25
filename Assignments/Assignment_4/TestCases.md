@@ -45,3 +45,39 @@ When user wants to register a registration form should be shown.
 
 ![After Input](http://goo.gl/8Qo3HX)
 
+***
+
+##Test case 4.4: Register with empty passwords should fail
+
+###Input:
+ * Test case 4.1. Show Register Form
+ * Enter a name with at least 6 characters not entered before like "admina"
+ * Click "Register" button 
+
+###Output:
+ * Message: "Password has too few characters, at least 6 characters."
+ * The text "Not logged in", is shown.
+ * Shows the register form with the name filled in.
+
+![After Input](http://goo.gl/oYGvtO) 
+
+
+***
+
+##Test case 4.5: Register with a short username should fail
+
+###Input:
+ * Test case 4.1. Show Register Form
+ * Enter a name with 2 characters not entered before like "ad"
+ * Enter a valid password like "Password"
+ * Enter the same repeat password like "Password"
+ * Click "Register" button 
+
+###Output:
+ * Message: Username has too few characters, at least 3 characters."
+ * The text "Not logged in", is shown.
+ * Shows the register form with the name filled in, like "ad".
+
+
+ 
+
