@@ -13,3 +13,11 @@ Here is some quick information about the course.
  * The online classroom is here https://connect.sunet.se/connect1dv608/
  * The course web is here: https://coursepress.lnu.se/kurs/webbutveckling-med-php/
  * Much of the course has been translated and updated this year and there are probably errors and missing information, make sure you tell us if you see or miss something.
+
+The following communication strategy is going to be used in the course.
+ * I will post news concerning the course on the course-web
+ * I will post on the course-web if something changes quickly, like a cancelled lecture.
+ * Questions about the course or assignments should be asked in https://1dv608.slack.com
+ * Questions of personal nature may be sent to my email adress with subject starting with 1DV608.
+ * During Handledning/Tutoring you have an opportunity to get help with your assignments.
+ * During Examination 
