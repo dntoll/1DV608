@@ -39,8 +39,7 @@ When user wants to register a registration form should be shown.
  * Click "Register" button without filling in any fields
 
 ###Output:
- * Message "Username has too few characters, at least 3 characters"
- * Message "Password has too few characters, at least 6 characters"
+ * Message "Username has too few characters, at least 3 characters. Password has too few characters, at least 6 characters."
  * The text "Not logged in", is shown.
  * Still shows the register form
 
