@@ -51,7 +51,7 @@ When user wants to register a registration form should be shown.
 
 ###Input:
  * Test case 4.1. Show Register Form
- * Enter a valid name with at least 6 characters not entered before like "admina"
+ * Enter a valid name with at least 3 characters not entered before like "admina"
  * Click "Register" button 
 
 ###Output:
@@ -68,7 +68,7 @@ When user wants to register a registration form should be shown.
 
 ###Input:
  * Test case 4.1. Show Register Form
- * Enter a name with 2 characters like "ad"
+ * Enter an invalid name with 2 characters like "ad"
  * Enter a valid password like "Password"
  * Enter the same repeat password like "Password"
  * Click "Register" button 
@@ -86,7 +86,7 @@ When user wants to register a registration form should be shown.
 
 ###Input:
  * Test case 4.1. Show Register Form
- * Enter a valid name with at least 6 characters not entered before like "admina"
+ * Enter a valid name with at least 3 characters not entered before like "admina"
  * Enter a invalid password like "Passw"
  * Enter the same repeat password like "Passw"
  * Click "Register" button 
@@ -104,7 +104,7 @@ When user wants to register a registration form should be shown.
 
 ###Input:
  * Test case 4.1. Show Register Form
- * Enter a valid name with at least 6 characters not entered before like "admina"
+ * Enter a valid name with at least 3 characters not entered before like "admina"
  * Enter a valid password like "Password"
  * Enter another valid repeat password like "Losenord"
  * Click "Register" button 
@@ -116,5 +116,22 @@ When user wants to register a registration form should be shown.
 
 ![After Input](http://goo.gl/p1Wt8G) 
 
+***
+
+##Test case 4.8: Register with an existing user fails
+
+###Input:
+ * Test case 4.1. Show Register Form
+ * Enter a valid name with at least 3 characters that is already registered like "Admin"
+ * Enter a valid password like "Password"
+ * Enter the same valid repeat password like "Password"
+ * Click "Register" button 
+
+###Output:
+ * Message: "User exists, pick another username."
+ * The text "Not logged in", is shown.
+ * Shows the register form with the name filled in, like "Admin".
+
+![After Input](http://goo.gl/3gQoTV) 
  
 
