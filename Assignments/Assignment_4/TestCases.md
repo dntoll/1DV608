@@ -168,4 +168,4 @@ When user wants to register a registration form should be shown.
  * The text "Not logged in", is shown.
  * Shows the login form with the name filled in.
 
-![After Input]() 
+![After Input](http://goo.gl/XwVbBn) 
