@@ -150,6 +150,22 @@ When user wants to register a registration form should be shown.
  * The text "Not logged in", is shown.
  * Shows the register form with the name filled in but without the tag, like "abc".
 
-![After Input](http://goo.gl/3gQoTV) 
+![After Input](http://goo.gl/8YK0mX) 
  
+***
 
+##Test case 4.10: Successful registration
+
+###Input:
+ * Test case 4.1. Show Register Form
+ * Enter a username with at least 3 characters not registered before like, abc
+ * Enter a valid password like "Password"
+ * Enter the same valid repeat password like "Password"
+ * Click "Register" button 
+
+###Output:
+ * Message: "Username contains invalid characters."
+ * The text "Not logged in", is shown.
+ * Shows the register form with the name filled in but without the tag, like "abc".
+
+![After Input](http://goo.gl/8YK0mX) 
