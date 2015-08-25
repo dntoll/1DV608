@@ -164,8 +164,8 @@ When user wants to register a registration form should be shown.
  * Click "Register" button 
 
 ###Output:
- * Message: "Username contains invalid characters."
+ * Message: "Registered new user."
  * The text "Not logged in", is shown.
- * Shows the register form with the name filled in but without the tag, like "abc".
+ * Shows the login form with the name filled in.
 
-![After Input](http://goo.gl/8YK0mX) 
+![After Input]() 
