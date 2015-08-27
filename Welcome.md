@@ -1,6 +1,7 @@
 Hi
 
-According to my list of possible students you are have applied for the course Web Development with PHP, 1DV608.
+According to my list of possible students you are have or may apply for the course Web Development with PHP, 1DV608.
+If you are not going to take the course, just ignore this email.
 
 Here is some quick information about the course.
 
