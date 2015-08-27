@@ -35,9 +35,11 @@
  * 1DV402 Inledande programmering med C#, 7,5 hp
  * 1DV405 Databasteknik, 7,5 hp
  * 1DV403 Webbteknik I, 7,5 hp
+
 ####Or 
  * 1DV506 Problemlösning och programmering, 7,5 hp 
  * 1DV507 Programmering och datastrukturer, 7,5 hp
+
 ####Or
  * equivalent courses
 
