@@ -17,7 +17,7 @@ Here is some quick information about the course.
 The following communication strategy is going to be used in the course.
  * I will post news concerning the course on the course-web
  * I will post on the course-web if something changes quickly, like a cancelled lecture.
- * Questions about the course or assignments should be asked in https://1dv608.slack.com
+ * Questions about the course or assignments should be asked in https://coursepress.slack.com/messages/1dv608-php/
  * Questions of personal nature may be sent to my email adress with subject starting with 1DV608.
  * During Handledning/Tutoring you have an opportunity to get help with your assignments.
  * During Examination 
