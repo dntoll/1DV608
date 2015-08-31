@@ -2,7 +2,7 @@
 
 namespace view;
 
-class UserPicker implements \model\UserVisitor {
+class UserPicker {
 	private static $pickedName = "picked"; 
 	private $users;
 
@@ -18,8 +18,10 @@ class UserPicker implements \model\UserVisitor {
 					return $user;
 				}
 			}
+
+			throw new \Exception("unwanted input exception");
 		}
-		return new \model\NullUser();
+		return null;
 	}
 
 
@@ -28,7 +30,10 @@ class UserPicker implements \model\UserVisitor {
 		$ret = "
 		<h2>Pick a user</h2>";
 
-		$ret .=  $selected->visit($this);
+		if ($selected != null)
+			$ret .=  $this->visitUser($selected);
+		else
+			$ret .=  $this->visitNullUser();
 
 
 		$ret .="<form>";
