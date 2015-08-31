@@ -14,9 +14,13 @@ $htmlView = new \view\HTMLView("utf-8");
 
 $users = array();
 
-$users[] = new \model\User("Daniel", "Daniels adress");
+$users[] = new \model\User("Daniel", "Snöfallsvägen 13");
+$users[] = new \model\User("Tobias", "Tobias adress");
 
 $picker = new \view\UserPicker($users);
-$body = $picker->getHTML(new \model\NullUser());
-$httpContent = $htmlView->getHTMLPage("Hello title", $body);
+
+$selected = $picker->getSelectedUser();
+
+$body = $picker->getHTML($selected);
+$httpContent = $htmlView->getHTMLPage("Pick a user", $body);
 echo $httpContent;
