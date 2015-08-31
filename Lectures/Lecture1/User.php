@@ -2,6 +2,11 @@
 
 namespace model;
 
+
+interface UserVisitor {
+	function visitUser(\model\User $user);
+}
+
 class User {
 	private $name;
 	private $adress;
@@ -15,4 +20,15 @@ class User {
 	public function getName() {
 		return $this->name;
 	}
+
+	public function visit(UserVisitor $visitor) {
+		$visitor->visitUser($this);
+	}
+}
+
+class NullUser extends User {
+
+	public function __construct() {}
+
+	public function visit(UserVisitor $visitor) {}
 }
