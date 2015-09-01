@@ -3,7 +3,7 @@
 
 The requirements of the application is written below and consists of three use-cases.
 
-[Use Cases](https://github.com/dntoll/1DV608/blob/master/Assignments/Assignment_2/Assignment2_Use_Cases.md, "Assignment 2 use-cases")
+[Use Cases](https://github.com/dntoll/1DV608/blob/master/Assignments/Assignment_2/Assignment2_Use_Cases.md "Assignment 2 use-cases")
 
 For each of the use-cases there are a number of test-cases. The test cases are given in the following format. 
  * Input, steps to do. In some cases another test-case, if so do the input steps of that test-case.
