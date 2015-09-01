@@ -25,19 +25,19 @@ https://en.wikipedia.org/wiki/HTTP/2 2014
 Taken from http://www.jmarshall.com/easy/http/
 
 ----------------------------------
-`GET index.php HTTP/1.0
-User-Agent: HTTPTool/1.0
-`
+	GET index.php HTTP/1.0
+	User-Agent: HTTPTool/1.0
+
 ----------------------------------
 
 #####HTTP Response
 ----------------------------------
-`HTTP/1.0 200 OK
-Date: Fri, 31 Dec 1999 23:59:59 GM
-Content-Length: 14
-Content-Type: Text/HTML
+	HTTP/1.0 200 OK
+	Date: Fri, 31 Dec 1999 23:59:59 GM
+	Content-Length: 14
+	Content-Type: Text/HTML
 
-<html></html>`
+	<html></html>
 ----------------------------------
 
 ### Example Telnet
