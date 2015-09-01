@@ -3,4 +3,4 @@
 
 #ignore vagrant
 VagrantFile
-/lectures/.vagrant
+/lectures/Lecture/.vagrant
