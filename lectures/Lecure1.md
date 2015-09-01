@@ -21,21 +21,23 @@ https://en.wikipedia.org/wiki/HTTP/2 2014
 
 
 #####HTTP Request
-Taken from http://www.jmarshall.com/easy/http/
-----------------------------------
-GET index.php HTTP/1.0
-User-Agent: HTTPTool/1.0
 
+Taken from http://www.jmarshall.com/easy/http/
+
+----------------------------------
+`GET index.php HTTP/1.0
+User-Agent: HTTPTool/1.0
+`
 ----------------------------------
 
 #####HTTP Response
 ----------------------------------
-HTTP/1.0 200 OK
+`HTTP/1.0 200 OK
 Date: Fri, 31 Dec 1999 23:59:59 GM
 Content-Length: 14
 Content-Type: Text/HTML
 
-<html></html>
+<html></html>`
 ----------------------------------
 
 ### Example Telnet
@@ -45,6 +47,11 @@ telnet csquiz.lnu.se 81
 Cookies, header, session cookie
 
 ### Example (index.php)
+
+http://www.phptherightway.com/
+
+Vagrant, Sublime, 
+
 
 http://localhost:8085/index.php
 
@@ -81,6 +88,9 @@ https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller
  * Controller (Use cases, makes changes to the model depending on user input)
  * View (interface, generates what user sees)
 
+Please note that MVC has many different interpretations and versions.
+(check an image search on google)
+
 ### Input validation and filtration
 View as a layer against the user
 
@@ -99,7 +109,8 @@ namespaces, class, private, public, constructor, member variable, parameters
 ####Browser to server(PHP)
 url, post, cookies, file-upload
 
-ajax,
+Syncronous
+(ajax)
 
 #### Example UserPicker
 
