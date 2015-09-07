@@ -92,13 +92,6 @@ https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller
 Please note that MVC has many different interpretations and versions.
 (check an image search on google)
 
-### Input validation and filtration
-View as a layer against the user.
-
-Should every input be considered harmful?
-What about cookies? Encrypted connections?
-
-
 ### View 
 The views responsibilities are to translate input to higher level input and generate output.
 
@@ -116,10 +109,6 @@ url, post, cookies, file-upload
 
 Syncronous
 (ajax)
-
-#### Example UserPicker
-
-write from beginning
 
 
 
