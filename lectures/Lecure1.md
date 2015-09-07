@@ -5,19 +5,20 @@
 ####Pipes
 
 http://ryanstutorials.net/linuxtutorial/piping.php
+
 ![](http://www.consumerwatchdog.org/sites/default/files/images/keystonepipeline.jpg)
 
 ####Sockets & Ports
 
-https://en.wikipedia.org/wiki/IP_address
-https://en.wikipedia.org/wiki/Port_(computer_networking)
-https://en.wikipedia.org/wiki/Network_socket
+ * https://en.wikipedia.org/wiki/IP_address
+ * https://en.wikipedia.org/wiki/Port_(computer_networking)
+ * https://en.wikipedia.org/wiki/Network_socket
 
 ####Protocols, HTTP
 
-http://www.jmarshall.com/easy/http/
-http://www.w3.org/Protocols/rfc2616/rfc2616.html 1997
-https://en.wikipedia.org/wiki/HTTP/2 2014
+ * http://www.jmarshall.com/easy/http/
+ * http://www.w3.org/Protocols/rfc2616/rfc2616.html 1997
+ * https://en.wikipedia.org/wiki/HTTP/2 2014
 
 
 #####HTTP Request
@@ -42,7 +43,7 @@ Taken from http://www.jmarshall.com/easy/http/
 
 ### Example Telnet
 
-telnet csquiz.lnu.se 81
+	telnet csquiz.lnu.se 81
 
 Cookies, header, session cookie
 
@@ -53,7 +54,7 @@ http://www.phptherightway.com/
 Vagrant, Sublime, 
 
 
-http://localhost:8085/index.php
+	http://localhost:8085/index.php
 
 ### PHP as a language
 
@@ -92,10 +93,14 @@ Please note that MVC has many different interpretations and versions.
 (check an image search on google)
 
 ### Input validation and filtration
-View as a layer against the user
+View as a layer against the user.
+
+Should every input be considered harmful?
+What about cookies? Encrypted connections?
 
 
-### View (Input and output)
+### View 
+The views responsibilities are to translate input to higher level input and generate output.
 
 ####Server(PHP) to browser
 HTML, Javascript, Images, CSS, URL, setcookie-headers, status code(200 OK)
