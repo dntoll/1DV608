@@ -2,7 +2,11 @@
 
 #### Example UserPicker
 
-write from beginning
+Show code...
+
+#### Example ColorPicker
+
+Show code...
 
 ### Input validation and filtration
 Abstract: View as a layer against the user
