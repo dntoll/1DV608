@@ -1,6 +1,6 @@
 <?php
 
-namespace view;
+namespace common\view;
 
 class HTMLView {
 	/**
