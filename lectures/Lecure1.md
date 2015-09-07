@@ -91,8 +91,7 @@ https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller
 Please note that MVC has many different interpretations and versions.
 (check an image search on google)
 
-### Input validation and filtration
-View as a layer against the user
+
 
 
 ### View (Input and output)
@@ -111,10 +110,6 @@ url, post, cookies, file-upload
 
 Syncronous
 (ajax)
-
-#### Example UserPicker
-
-write from beginning
 
 
 
