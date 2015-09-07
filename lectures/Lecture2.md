@@ -17,10 +17,21 @@ Large uploads, which we do not want to resubmit.
 For user benefit-hidden input (you do not need to know)
 
 What about $_COOKIE?
+ * http://php.net/manual/en/features.cookies.php 
 
 What about $_FILES?
 
+### Session and state on the web
 
+Session on multiple servers?
+
+###How to send stuff that is not simple text...
+ * To place something in an URL: http://se.php.net/manual/en/function.urlencode.php
+ * To decode the same... http://se.php.net/manual/en/function.urldecode.php
+ * To transfer safe: http://se.php.net/manual/en/function.base64-encode.php
+ * To decode the same... http://se.php.net/manual/en/function.base64-decode.php
+ * To encode to json http://php.net/manual/en/function.json-encode.php
+ * To decode the same... http://php.net/manual/en/function.json-decode.php
 
 ####General problem
 Wrong input leads to erroneus states
@@ -59,8 +70,13 @@ BUT client data can be manipulated, since clients can be replaced. So all input 
    
 
 Javascript injections
-HTML-code
-Bots
+ * HTML-code 
+  * http://se.php.net/htmlentities%20
+  * http://se.php.net/manual/en/function.addslashes.php 
+  * http://se.php.net/manual/en/function.stripslashes.php
+ * Bots
 
-####What should we protect?
-Cookies & Sessionid?
+
+
+
+http://se.php.net/manual/en/function.urlencode.php 
