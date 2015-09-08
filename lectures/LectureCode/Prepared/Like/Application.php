@@ -23,13 +23,11 @@ class Application  {
 		
 
 		$urlView = new \view\URLView();
-
 		$pv = new \view\ProductView($urlView);
 
 
 		//Please note that this is "controller code..."
 		if ($pv->customerInspectsProduct()) {
-
 			$p = $pv->getSelectedProduct($this->productCatalog);
 
 			$likeModel = new \model\LikeModel($p);
