@@ -33,7 +33,7 @@ class UserArray {
 
 	public function getUserByName($nameString) {
 
-		foreach ($this->users->getUsers() as $user) {
+		foreach ($this->users as $user) {
 			if ($user->getName() === $nameString) {
 				return $user;
 			}
