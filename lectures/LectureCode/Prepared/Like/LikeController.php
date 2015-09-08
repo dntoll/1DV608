@@ -13,9 +13,11 @@ class LikeController {
 	private $view;
 	private $model;
 
-	public function __construct() {
-		$this->view = new \view\LikeView();
-		$this->model = new \model\LikeModel();
+	public function __construct(\model\LikeModel $model, \view\LikeView $view) {
+
+		$this->model = $model;
+		$this->view = $view;
+		
 	}
 	
 	/**
@@ -29,14 +31,12 @@ class LikeController {
 		//Hämta indata från användaren
 		if ($this->view->didUserPressLike() == true) {
 			$userPressedLikeOK = $this->model->UserLikes();
+
+			//store changes in view
+			$this->view->userDidLikeOK();
 		}
 		
-		//Hämta data från modellen
-		$likes = $this->model->GetNumberOfLikes();
 		
-		//Generera utdata
-		$xhtml = $this->view->createLikeButton($likes, $userPressedLikeOK);
-		return "$xhtml";
 	}
 	
 }
