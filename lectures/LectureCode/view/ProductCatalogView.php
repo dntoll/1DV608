@@ -5,19 +5,16 @@ namespace view;
 
 class ProductCatalogView {
 
-	/**
-	 * Used to build URLs to a certain product
-	 * @var string
-	 */
-	private static $productURLID = "p";
+	
 
 	/**
 	 * @var \model\ProductCatalog
 	 */
 	private $catalog;
 
-	public function __construct(\model\ProductCatalog $catalog) {
+	public function __construct(\model\ProductCatalog $catalog, NavigationView $nav) {
 		$this->catalog = $catalog;
+		$this->navigation = $nav;
 	}
 
 	/**
@@ -35,8 +32,8 @@ class ProductCatalogView {
 			$price = $product->getPrice();
 			$unique = $product->getUniqueString();
 
-			$url = "?".self::$productURLID."=$unique"; //TODO: Generate URL here
-			 
+			
+			$url = $this->navigation->getURLToProduct($unique); 
 			$ret .= "<li><a href='$url'>$title</a> $price</li>";
 		}
 		$ret .= "</ul>";
@@ -44,23 +41,15 @@ class ProductCatalogView {
 		return "<h2>Product Catalog</h2> $ret";
 	}
 
-	/**
-	 * @return boolean
-	 */
-	public function customerWantsToSeeProduct() {
-		if (isset($_GET[self::$productURLID]) ) {
-			return true;
-		}
-		return false;
-	}
+	
 
 	/**
 	 * @throws Exception if the key is unkown
 	 * @return \model\Product
 	 */
 	public function getSelectedProduct() {
-		assert($this->customerWantsToSeeProduct());
-		$unique = $_GET[self::$productURLID];
+		assert($this->navigation->customerWantsToSeeProduct());
+		$unique = $this->navigation->getProductID();
 
 		$product = $this->catalog->getProductFromUnique($unique);
 
