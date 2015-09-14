@@ -17,11 +17,16 @@ class ProductCatalog {
 		$this->products[$key] = $toBeAdded;
 	}
 
-
+	/**
+	 * @return array of model\Product
+	 */
 	public function getProducts() {
 		return $this->products;
 	}
 
+	/**
+	 * @return null | model\Product
+	 */
 	public function getProductFromUnique($nameString) {
 		if (isset($this->products[$nameString]) ) {
 			return $this->products[$nameString];
