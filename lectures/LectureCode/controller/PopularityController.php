@@ -14,7 +14,13 @@ class PopularityController {
 	public function   doLike() {
 
 		if ($this->popularityView->didCustomerPressLike()) {
-			$this->productLikes->doLike();
+			$uniqueUserId = $this->popularityView->getUserId(); //TODO make highlevel input to increase security...
+
+			if ($this->productLikes->hasUserLiked($uniqueUserId) == false) {
+				$this->productLikes->doLike($uniqueUserId);
+			} else {
+				$this->productLikes->doUnlike($uniqueUserId);
+			}
 		}
 	}
 }

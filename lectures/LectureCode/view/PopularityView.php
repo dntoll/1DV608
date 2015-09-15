@@ -5,6 +5,7 @@ namespace view;
 class PopularityView {
 
 	private static $postLikeId = "like";
+	private static $cookieID = "view::PopularityView::userID";
 
 	public function __construct(NavigationView $nav, 
 								\model\Product $product,
@@ -21,13 +22,24 @@ class PopularityView {
 		return isset($_POST[self::$postLikeId]);
 	}
 
+	public function getUserId() {
+		if (isset($_COOKIE[self::$cookieID])) {
+			return $_COOKIE[self::$cookieID];
+		} else {
+			$unique = "uniqueStringInCookie" . sha1(rand());
+			setcookie(self::$cookieID, $unique, time() + 60 * 60 * 24 * 365);
+			$_COOKIE[self::$cookieID] = $unique;
+			return $unique;
+		}
+	}
+
 	/**
 	 * @return string HTML
 	 */
 	public function getHTML() {
 
 		$likes = $this->productLikes->getNumberOfLikes();
-		$weLikeTheThing	= true;
+		$weLikeTheThing	= $this->productLikes->hasUserLiked(self::getUserId());
 
 		$message = "";
 		if($this->didCustomerPressLike()) {
