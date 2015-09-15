@@ -26,19 +26,15 @@ class ProductView {
 		$title = $this->product->getTitle();
 		$desciption = $this->product->getDescription();
 		$price = $this->product->getPrice();
-		$unique = $this->product->getUniqueString();
-
 		$popularity = $this->popularityView->getHTML();
+		$backLink = $this->navigationView->getLinkToCatalog(); 
 
-		$ret = "<div>
+		return "<div>
 					<h2>$title</h2>
 					$popularity
 					<p>Price: $price sek</p>
 					<p>$desciption</p>
+					$backLink
 				</div>";
-
-		$ret .= $this->navigationView->getLinkToCatalog(); //<-TODO: Work here, please note the . is a view thing
-		
-		return $ret;
 	}
 }

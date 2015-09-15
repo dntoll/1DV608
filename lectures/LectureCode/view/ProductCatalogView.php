@@ -31,9 +31,8 @@ class ProductCatalogView {
 			$title = $product->getTitle();
 			$price = $product->getPrice();
 			$unique = $product->getUniqueString();
-
-			
 			$url = $this->navigation->getURLToProduct($unique); 
+			
 			$ret .= "<li><a href='$url'>$title</a> $price</li>";
 		}
 		$ret .= "</ul>";

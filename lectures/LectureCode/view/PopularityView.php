@@ -14,10 +14,16 @@ class PopularityView {
 		$this->productLikes = $pl;
 	}
 
+	/**
+	 * @return boolean
+	 */
 	public function didCustomerPressLike() {
 		return isset($_POST[self::$postLikeId]);
 	}
 
+	/**
+	 * @return string HTML
+	 */
 	public function getHTML() {
 
 		$likes = $this->productLikes->getNumberOfLikes();

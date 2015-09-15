@@ -6,11 +6,6 @@ namespace controller;
 class StoreController {
 
 	/**
-	 * @var null | \model\Product
-	 */
-	private $selectedProduct = null;
-
-	/**
 	 * @var \model\ProductCatalog
 	 */
 	private $catalog;
@@ -20,25 +15,36 @@ class StoreController {
 	 */
 	private $productCatalogView;
 
+	/**
+	 * @var \view\NavigationView
+	 */
 	private $navigationView;
+
+	/**
+	 * @var null | \view\ProductView
+	 */
+	private $productView = null;
 
 	public function __construct(\model\ProductCatalog $catalog) {
 		$this->catalog = $catalog;
 		$this->navigationView = new \view\NavigationView();
 		$this->productCatalogView = new \view\ProductCatalogView($this->catalog, $this->navigationView);		
-		
 	}
 
 	public function doStore() {
 		if ($this->navigationView->customerWantsToSeeProduct()) {
-			$this->selectedProduct = $this->productCatalogView->getSelectedProduct();
-			
-			$productLikes = new \model\ProductLikes($this->selectedProduct);
-			$popularityView = new \view\PopularityView($this->navigationView, $this->selectedProduct, $productLikes);
-			
+
+			//setup controller
+			$selectedProduct = $this->productCatalogView->getSelectedProduct();
+			$productLikes = new \model\ProductLikes($selectedProduct);
+			$popularityView = new \view\PopularityView($this->navigationView, $selectedProduct, $productLikes);
 			$likeController = new PopularityController($popularityView, $productLikes);
 
+			//execute child controller
 			$likeController->doLike();
+
+			//initiate view
+			$this->productView = new \view\ProductView($selectedProduct, $this->navigationView, $popularityView);
 		}
 	}
 
@@ -48,14 +54,9 @@ class StoreController {
 	 */
 	public function getView() {
 
-		if ($this->selectedProduct != null) {
-			$productView = new \view\ProductView($this->selectedProduct, $this->navigationView);
-
-			return  $productView;
-			
-			
+		if ($this->productView != null) {
+			return  $this->productView;
 		} else {
-
 			return $this->productCatalogView;
 		}
 	}

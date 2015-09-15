@@ -11,10 +11,17 @@ class NavigationView {
 	 */
 	private static $productURLID = "p";
 
+	/**
+	 * @return String HTML <a href...
+	 */
 	public function getLinkToCatalog() {
 		return "<a href='?'>back</a>";
 	}
 
+	/**
+	 * @param  String $unique
+	 * @return String URL starting with ?
+	 */
 	public function getURLToProduct($unique) {
 		return "?".self::$productURLID."=$unique";
 	}
@@ -29,7 +36,11 @@ class NavigationView {
 		return false;
 	}
 
+	/**
+	 * @return String
+	 */
 	public function getProductID() {
-		 return $_GET[self::$productURLID];
+		assert($this->customerWantsToSeeProduct());
+		return $_GET[self::$productURLID];
 	}
 }

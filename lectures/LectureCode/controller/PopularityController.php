@@ -8,7 +8,6 @@ class PopularityController {
 	public function __construct(\view\PopularityView $view, 
 								\model\ProductLikes $likes) {
 		$this->popularityView = $view;
-
 		$this->productLikes = $likes;
 	}
 

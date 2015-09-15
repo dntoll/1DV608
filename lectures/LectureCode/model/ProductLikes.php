@@ -9,7 +9,7 @@ class ProductLikes {
 	}
 
 	public function getNumberOfLikes() {
-		$numberOfLikes = file_get_contents("data/ProductLikes.txt");
+		$numberOfLikes = file_get_contents("../data/ProductLikes.txt");
 
 		return $numberOfLikes;
 	}
