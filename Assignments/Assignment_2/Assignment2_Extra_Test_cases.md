@@ -103,7 +103,7 @@ Make sure a session cookie is not valid in another browser.
  * B1. Still logged in...
  
 ##Test case 3.7, Cookies are randomly generated
-Make sure a session cookie are not based on the true users password.
+Make sure a cookie-password are not based on the true users password.
 
 ###Input:
  * Test case 3.1, Login with "Keep me logged in" 
@@ -112,7 +112,7 @@ Make sure a session cookie are not based on the true users password.
  * Check the password cookie, it should look random and may not contain the true password
  
 ##Test case 3.8, Cookie Passwords are temporary
-Make sure a session cookie are not the same every time...
+Make sure a cookie password are not the same every time...
 
 ###Input:
  * Test case 3.1, Login with "Keep me logged in" 
