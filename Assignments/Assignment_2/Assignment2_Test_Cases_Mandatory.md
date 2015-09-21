@@ -69,7 +69,7 @@ Make sure login cannot happen without entering both fields
  * A form for login is shown.
  * Password is empty
 
-![After Input](images/MissingPassword.png)
+![After Input](images/usernameIsMissing.png)
 
 ***
 
