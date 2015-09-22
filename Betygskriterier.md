@@ -17,7 +17,7 @@ För att betygssätta en student måste examinator bestämma hur målen skall ex
 
 
 Laborationer: 4 laborationer. Alla uppgifter måste slutföras för att betyg skall sättas. 
-Betyg viktas mellan laboration 2 och 4 med vikterna 0,5, 0,5
+Betyg för laborationsdelen av kursen viktas mellan laboration 2 och 4 med vikterna 0,5, 0,5.
 
 Projekt: 1 seminarie, projektinlämning, slutredovisning med vikter 0.2, 0.5, 0.3
 Exempel: Studenten Lisa har fått betygen A, E, och A på projektet, betyget för projektet blir då
