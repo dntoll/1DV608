@@ -1,10 +1,11 @@
 ##Goals
 
-The goal with the fourth assignment is to continue to work with the code-base from assignment 2, 
-and increase the number of requirements.
+The goal with the fourth assignment is to continue to work with the code-base from assignment 2, and increase the number of requirements.
 More requirements means more complexity both techologically and code-wise. As in A2 we are focusing on security, error handling, and user feedback.
 
 ## Rules
+
+If you failed A2 you may use my code from A2 https://github.com/dntoll/1DV608/tree/master/Assignments/Assignment_4/solution to start from. It fulfills all the base requirements and extra requirements.
 
 Examiner sets the degree using the following:
  * Minimum requirements must all be fulfilled

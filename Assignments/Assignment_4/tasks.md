@@ -20,7 +20,7 @@ Testing of the application requires two different browsers, and a tool to manipu
 
 [Test Application](http://csquiz.lnu.se:81/ "Application To test requirements on"). This is an example solution for assignment 4. It fulfills all the test-cases above.
 
-[Automated tests Application](http://csquiz.lnu.se:82/ "Application To test your on"). This is an automated acceptance test system to speed up the testing process. 
+[Automated tests Application](http://csquiz.lnu.se:83/ "Application To test your on"). This is an automated acceptance test system to speed up the testing process. 
 
 ## Task 2. Copy the code and get your servers set up.
 

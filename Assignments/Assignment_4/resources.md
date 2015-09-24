@@ -7,6 +7,6 @@
  * [Mandatory Test Cases 2](https://github.com/dntoll/1DV608/blob/master/Assignments/Assignment_4/TestCases.md "Mandatory Test-Cases UC4")
  * [Extra Test Cases for higher grades](https://github.com/dntoll/1DV608/blob/master/Assignments/Assignment_2/Assignment2_Extra_Test_cases.md "Extra Test-Cases for higher grade")
 
- * [Test Application](http://csquiz.lnu.se:81/ "Application To test requirements on")
+ * [Test Application](http://csquiz.lnu.se:83/ "Application To test requirements on")
  * [Automated tests Application](http://csquiz.lnu.se:82/ "Application To test your on")
  * [Submission form](http://goo.gl/forms/VaDElVp4x5 "Submission form")
