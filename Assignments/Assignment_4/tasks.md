@@ -13,8 +13,8 @@ For each of the use-cases there are a number of test-cases. The test cases are g
  
 Testing of the application requires two different browsers, and a tool to manipulate cookies, like "firebug".
 
-[Mandatory Test Cases](https://github.com/dntoll/1DV608/blob/master/Assignments/Assignment_4/Assignment2_Test_Cases_Mandatory.md "Mandatory Test-Cases"), These are the requirements everyones solutions must fullfill all of.
-[Mandatory Test Cases from A2](https://github.com/dntoll/1DV608/blob/master/Assignments/Assignment_4/Assignment2_Test_Cases_Mandatory.md "Mandatory Test-Cases from A2"), Your solution must still fulfill the TC from A2!.
+[Mandatory Test Cases](https://github.com/dntoll/1DV608/blob/master/Assignments/Assignment_4/TestCases.md "Mandatory Test-Cases"), These are the requirements everyones solutions must fullfill all of.
+[Mandatory Test Cases from A2](https://github.com/dntoll/1DV608/blob/master/Assignments/Assignment_2/Assignment2_Test_Cases_Mandatory.md "Mandatory Test-Cases from A2"), Your solution must still fulfill the TC from A2!.
 
 [Extra Test Cases for higher grades](https://github.com/dntoll/1DV608/blob/master/Assignments/Assignment_2/Assignment2_Extra_Test_cases.md "Extra Test-Cases for higher grade") The extra TCs for higher grades still applies from A2.
 
