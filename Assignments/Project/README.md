@@ -32,6 +32,7 @@ Grade is set by the examiner by judging:
   * Solves Users Problem -> better grade
  * The project has tests and fulfills them
  * The application is well tested even outside of the explicit tests
+ * Security is considered
  
 ###Code Quality
  * Code MUST be object oriented.
