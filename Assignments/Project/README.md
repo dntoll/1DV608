@@ -1,6 +1,8 @@
 ##Goal
 Student creates their own object oriented MVC project from requirements to release.
 
+It can be a component(Like the A4) or an application that solves a problem for someone.
+
 ##Rules
 
 All projects must fulfill the minimum requirements.
