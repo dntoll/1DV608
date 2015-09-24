@@ -5,7 +5,7 @@ More requirements means more complexity both techologically and code-wise. As in
 
 ## Rules
 
-If you failed A2 you may use my code from A2 https://github.com/dntoll/1DV608/tree/master/Assignments/Assignment_4/solution to start from. It fulfills all the base requirements and extra requirements.
+If you failed A2 you may use my code from A2 https://github.com/dntoll/1DV608/tree/master/Assignments/Assignment_2/solution to start from. It fulfills all the base requirements and extra requirements.
 
 Examiner sets the degree using the following:
  * Minimum requirements must all be fulfilled
