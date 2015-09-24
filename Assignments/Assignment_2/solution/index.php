@@ -1,5 +1,8 @@
 <?php
-
+ /**
+  * Solution for assignment 2
+  * @author Daniel Toll
+  */
 require_once("Settings.php");
 require_once("controller/LoginController.php");
 require_once("view/DateTimeView.php");

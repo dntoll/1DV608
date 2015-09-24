@@ -1,5 +1,8 @@
 <?php
-
+/**
+  * Solution for assignment 2
+  * @author Daniel Toll
+  */
 namespace model;
 
 class TempCredentialsDAL {
