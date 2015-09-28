@@ -1,18 +1,17 @@
-##Goals
+##Goal
+Student creates their own object oriented MVC project from requirements to release.
 
-The goal with the fourth assignment is to continue to work with the code-base from assignment 2, and increase the number of requirements.
-More requirements means more complexity both techologically and code-wise. As in A2 we are focusing on security, error handling, and user feedback.
+It can be a component(Like the A4) or an application that solves a problem for someone.
 
-## Rules
+##Rules
 
-If you failed A2 you may use my code from A2 https://github.com/dntoll/1DV608/tree/master/Assignments/Assignment_2/solution to start from. It fulfills all the base requirements and extra requirements.
+All projects must fulfill the minimum requirements.
 
-Examiner sets the degree using the following:
- * Minimum requirements must all be fulfilled
+Grade is set by the examiner by judging:
  * Requirement fulfillment
  * Code quality
  * MVC implementation
-
+ * Presentation, on GitHub and Oral presentation
 
 ###The set of minimum requirements for approved is:
 * Solution has been submitted before the deadline
@@ -23,17 +22,18 @@ Examiner sets the degree using the following:
 * No external code except the code given in task, no libraries are used
 * No javascript is used
 * HTML follows [web standards](https://validator.w3.org/)
-* Application can be tested with the automated test application.
 * Code has one single page (index.php) 
 * Your solution will/may be shared with other students after the deadline.
 
 ###Requirement fulfillment
- * All mandatory test-cases MUST be successful 
- * The more testcases that are fullfilled, the better
- * Test-cases should be fullfill the manual tests
+ * Requirements are described in vision and Use-Cases
+  * Bigger Project -> better grade
+  * Complexity -> better grade
+  * Solves Users Problem -> better grade
+ * The project has tests and fulfills them
  * The application is well tested even outside of the explicit tests
- * Application works as the example implementation
-
+ * Security is considered
+ 
 ###Code Quality
  * Code MUST be object oriented.
  * Code looks good
@@ -43,6 +43,8 @@ Examiner sets the degree using the following:
   * Code follows proper indentation
  * Errors are handled well (assert and exceptions)
  * Code Repository is presented well on git (eg. README.md )
+  * Dependencies and described
+  * Installation instructions
  * Dependencies are explicit or encapsulated
   * No string dependencies, uses strategies to avoid them
  * Avoid complexity
@@ -56,3 +58,6 @@ Examiner sets the degree using the following:
   * No View responsibilities in Model or Controller
   * No Model responsibilities in View or Controller
   * No Controller responsibilities in View or Model
+  
+###Presentation
+ * An oral presentation has been done.
