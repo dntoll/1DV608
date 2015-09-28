@@ -10,6 +10,7 @@ class NavigationView {
 	 * @var string
 	 */
 	private static $productURLID = "p";
+	private static $adminURL = "admin";
 
 	/**
 	 * @return String HTML <a href...
@@ -42,5 +43,9 @@ class NavigationView {
 	public function getProductID() {
 		assert($this->customerWantsToSeeProduct());
 		return $_GET[self::$productURLID];
+	}
+
+	public function inStore() {
+		return isset($_GET[self::$adminURL]) == false;
 	}
 }

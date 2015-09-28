@@ -2,19 +2,27 @@
 
 namespace model;
 
-class Product {
+class NoTitleException extends \Exception {};
+class NoDescriptionException extends \Exception {};
+class NoUniqueException extends \Exception {};
+class NoPriceException extends \Exception {};
 
+class Product {
 	private $title;
 	private $price;
 	private $unique;
 	private $description;
 
 	public function __construct($title, $price, $unique, $description) {
-		assert(is_string($title) && strlen($title) > 0);
-		assert(is_string($description) && strlen($description) > 0);
+		if (is_string($title) == false || strlen($title) == 0)
+			throw new NoTitleException();
+		if (is_string($description) == false || strlen($description) == 0)
+			throw new NoDescriptionException();
+		if (is_string($unique) == false || strlen($unique) == 0)
+			throw new NoUniqueException();
 		
 		if (!is_numeric($price) || $price <= 0) {
-			throw new \Exception("Price is too low!");
+			throw new NoPriceException();
 		}
 
 		$this->title = $title;
