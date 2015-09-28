@@ -32,7 +32,7 @@ When user wants to register a registration form should be shown.
 
 ***
 
-##Testfall 4.3: Registrera utan uppgifter misslyckas
+##Testfall 4.3: Register without any credentials fails
 
 ###Input:
  * Test case 4.1. Show Register Form
