@@ -2,6 +2,8 @@
 
 namespace model;
 
+require_once("model\Product.php");
+
 class ProductCatalog {
 
 	private $products = array();

@@ -37,7 +37,13 @@ class AdminView {
 			$this->message = "No title set, title must be set";
 		} catch (\model\NoDescriptionException $e) {
 			$this->message = "No description set, title must be set";
-		} catch (\Exception $e) {
+		} catch (\model\NoPriceException $e) {
+			$this->message = "No price set, a positive numeric must be set";
+		} catch (\model\NoUniqueException $e) {
+			$this->message = "No unique string is set, it must be set";
+		} catch (\model\UniqueURLException $e) {
+			$this->message = "The unique string must only contain characters suitable for the url";
+		} catch (Exception $e) {
 			$this->message = "Unspecified error";
 		} 
 		return null;

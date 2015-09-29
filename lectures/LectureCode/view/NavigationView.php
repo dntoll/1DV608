@@ -45,6 +45,7 @@ class NavigationView {
 		return $_GET[self::$productURLID];
 	}
 
+
 	public function inStore() {
 		return isset($_GET[self::$adminURL]) == false;
 	}

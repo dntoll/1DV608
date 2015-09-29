@@ -2,6 +2,7 @@
 
 namespace controller;
 
+require_once("view/PopularityView.php");
 
 class PopularityController {
 

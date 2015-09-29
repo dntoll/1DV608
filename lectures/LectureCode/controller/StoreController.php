@@ -2,6 +2,9 @@
 
 namespace controller;
 
+require_once("controller/PopularityController.php");
+require_once("model/ProductLikes.php");
+require_once("view/ProductView.php");
 
 class StoreController {
 

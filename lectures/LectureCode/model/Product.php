@@ -6,6 +6,8 @@ class NoTitleException extends \Exception {};
 class NoDescriptionException extends \Exception {};
 class NoUniqueException extends \Exception {};
 class NoPriceException extends \Exception {};
+class UniqueURLException extends \Exception {};
+
 
 class Product {
 	private $title;
@@ -20,6 +22,9 @@ class Product {
 			throw new NoDescriptionException();
 		if (is_string($unique) == false || strlen($unique) == 0)
 			throw new NoUniqueException();
+		if (urlencode($unique) != $unique) {
+			throw new UniqueURLException();
+		}
 		
 		if (!is_numeric($price) || $price <= 0) {
 			throw new NoPriceException();

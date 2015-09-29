@@ -12,6 +12,11 @@ class ProductCatalogView {
 	 */
 	private $catalog;
 
+	/**
+	 * @var \view\NavigationView
+	 */
+	private $navigation;
+
 	public function __construct(\model\ProductCatalog $catalog, NavigationView $nav) {
 		$this->catalog = $catalog;
 		$this->navigation = $nav;
