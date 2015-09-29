@@ -1,19 +1,16 @@
 <?php
 class M {
 	public $p;
-	private $np;
 	public function __construct($N) {
-		$this->np = 0;
 		$this->p = array();
 		for ($i=1; $i < $N; $i++) { 
 			if ($this->p($i)) {
-				$this->np++;
 				$this->p[] = $i;
 			}
 		}
 	}
 	private function p($N) {
-		for ($i =1; $i < $this->np && $this->p[$i] * $this->p[$i] <= $N; $i++) { 
+		for ($i =1; $i < count($this->p) && $this->p[$i] * $this->p[$i] <= $N; $i++) { 
 			if ($N % $this->p[$i] == 0) {
 				return false;
 			}
