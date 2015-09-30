@@ -8,7 +8,7 @@
   * Examination: Functional examination of application and Code Inspection by Teacher/Amanuens
   * Late/Not approved students will get another examination task.
  * V40, Assignment 3. Complete all tasks in assignment 3 before deadline
-  * Deadline: 2015-10-1, 13:00 
+  * Deadline: 2015-10-2, 17:00 
   * Examination: Automatic assessment of completed assignments
   * Feedback: Directly in CSQUIZ
  * V41, Assignment 4. Complete and submit assignment 4 before deadline
