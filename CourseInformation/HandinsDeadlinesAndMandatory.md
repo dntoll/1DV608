@@ -12,8 +12,8 @@
   * Examination: Automatic assessment of completed assignments
   * Feedback: Directly in CSQUIZ
  * V41, Assignment 4. Complete and submit assignment 4 before deadline
-  * Deadline: Examination time in schedule. Week number 41
-  * Feedback: Given during examination time in schedule
+  * Deadline: Friday 2015-10-09 17:00
+  * Feedback: Given during tutoring on demand
   * Examination: Functional examination of application and Code Inspection by Teacher/Amanuens
   * Late/Not approved students will get another examination task.
  * V42, Workshop, Mandatory Group Work during Workshop time
