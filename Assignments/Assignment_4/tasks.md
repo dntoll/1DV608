@@ -38,7 +38,7 @@ In order to hand in this project you must have a public web-server that is onlin
 Test your release
  * Transfer your files to the server, for example by FTP, SFTP, or git.
  * Browse to the server and make sure you see the output of the PHP-scripts
- * Go to http://csquiz.lnu.se:82/ and enter your server adress with your user-id
+ * Go to http://csquiz.lnu.se:83/ and enter your server adress with your user-id
   * press Check
   * you should get a "Estimated score on assignment: 5%." and a LOT of errors
 
@@ -49,12 +49,12 @@ Test your release
   * Test locally using the manual test-cases
   * Commit and push to repository
  * Release code to server
-  * Go to http://csquiz.lnu.se:82/ and enter your server adress with your user-id
+  * Go to http://csquiz.lnu.se:83/ and enter your server adress with your user-id
   * Fix problems locally, then release to server and retest
 
 ## Assignment submission
 
  * Commit and push to GitHub
  * Upload latest version on public server
- * Run http://csquiz.lnu.se:82/ against your public server
+ * Run http://csquiz.lnu.se:83/ against your public server
  * Fill in the submission form here: http://goo.gl/forms/VaDElVp4x5
