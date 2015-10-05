@@ -169,3 +169,12 @@ When user wants to register a registration form should be shown.
  * Shows the login form with the name filled in.
 
 ![After Input](http://goo.gl/XwVbBn) 
+
+##Test case 4.11: Successful login with newly registered user
+
+###Input
+ * Test case 4.10
+ * Test case 1.7, but with registered user credentials
+
+###Output
+ * See TC1.7
