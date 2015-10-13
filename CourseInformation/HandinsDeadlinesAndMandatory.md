@@ -23,10 +23,8 @@
  * V44, Project Presentation, Mandatory Presentation of Project
   * Mandatory Presence: The entire presentation time in schedule
   * Late/Not approved students will get a written examination task
- * V44, Handin of Corrected assignments
-  * Deadline: Examination time in schedule. Week 44
-  * Feedback: Given by email
-  * Mandatory: During Booked Time
+ * V48, Handin of Re-exam tasks 
+  * Deadline: Preferably before Monday week 48
+  * Feedback: Given by email, might be quite late since I have another two courses. Expect feedback before new year.
   * Examination: Functional examination of application, and Code Inspection by Teacher/Amanuens
-  * Late/Not approved students will get another examination task.
- 
+  * Late/Not approved students will get yet another examination task. Please note that new deadlines will be in August 2016.
