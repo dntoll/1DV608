@@ -6,16 +6,16 @@ Being able to understand what happens when code runs on a public webserver is vi
 A log-library collects log events from code. For example a log could show that someone attempts to brute force login or that customers starts but never completes a purchase. Or that some error occured that we cannot handle.
 
 For example in code below an exception is thrown but since this happens to a customer we do not get any information that it happened.
-public function buyItemsInCart($shoppingCart) {
-'''	$order = new \model\Order($shoppingCart);
-	try {
-$this->orderDAL->saveOrder($order);
-return true;
-	} catch (Exception $e) {
-		logThis("An order failed ", $e);
-		return false;
-}
-}'''
+	public function buyItemsInCart($shoppingCart) {
+		$order = new \model\Order($shoppingCart);
+		try {
+			$this->orderDAL->saveOrder($order);
+			return true;
+		} catch (Exception $e) {
+			logThis("An order failed ", $e);
+			return false;
+		}
+	}
 If the log is saved persistently we can inspect that log later and find out why the orders was not saved..
 
 The current version of the code library only collects information about the last request.
